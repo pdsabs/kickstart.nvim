@@ -1,5 +1,22 @@
 # kickstart.nvim
 
+## Custom Installs
+
+#NVIM
+sudo add-apt-repository ppa:neovim-ppa/unstable -y
+sudo apt update
+sudo apt install make gcc ripgrep unzip git xclip neovim
+
+#NVM
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+#Reopen Terminal
+nvm install --lts
+
+#LSP Stuff
+Use :Mason and :MasonInstall to setup language servers
+Edit init.lua to add new servers
+
+
 ## Introduction
 
 A starting point for Neovim that is:
