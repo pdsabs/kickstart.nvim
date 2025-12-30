@@ -2,6 +2,15 @@
 
 ## Custom Installs
 
+#ZSH
+sudo apt install zsh
+
+#OHMYZSH
+curl:
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+wget:
+sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 #NVIM
 sudo add-apt-repository ppa:neovim-ppa/unstable -y
 sudo apt update
